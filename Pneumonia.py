@@ -41,7 +41,7 @@ st.write("""This tool utilizes a Convolutional Neural Network (CNN), a powerful 
 
 with st.sidebar:
         st.markdown("""
-        <div style="padding: 10px; border: 2px solid #ffffff; border-radius: 5px; background-color: #0E1117; color: #ffffff; width: fit-content;">
-        <b>Disclaimer:</b><br></br>This tool is not intended for self-diagnosis. Always consult a doctor for medical advice.
+        <div style="padding: 10px; border: 2px solid #ffffff; border-radius: 5px; background-color: #0E1117; color: #ffffff; width: fit-content;justify-content: center;">
+        ⚠️<b>Disclaimer:</b><br></br>This tool is not intended for self-diagnosis.<br></br>Always consult a doctor for medical advice.
         </div>
         """, unsafe_allow_html=True)
